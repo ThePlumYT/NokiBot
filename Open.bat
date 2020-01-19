@@ -1,0 +1,2 @@
+nodemon noki.js
+PAUSE
