@@ -12,5 +12,5 @@ noki.on('ready', () => {
 noki.on('message', message => {
   if(config.FILTER_LIST.some(word => message.content.toLowerCase().includes(word))){
     message.delete()
-	message.reply('พิมคำหยาบไม่ดีน่ะ "โนกิ " ลบให้แล้วน่ะ')
+	message.reply('No No No !')
   }})
